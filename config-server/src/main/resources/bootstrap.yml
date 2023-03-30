@@ -6,4 +6,5 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/URMART/ms-config.git
+          searchP
