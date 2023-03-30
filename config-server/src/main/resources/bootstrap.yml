@@ -7,9 +7,9 @@ spring:
       server:
         git:
           uri: https://github.com/URMART/ms-config.git
-          searchPath: config-data
-          username: urmart
-          password: 1216725837Jm
+          searchPaths: config-data
+          username: ${GIT_USER}
+          password: ${GIT_PASSWORD}
   security:
     user:
       name: root
