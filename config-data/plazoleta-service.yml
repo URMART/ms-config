@@ -17,4 +17,4 @@ appVersion: "1.0.0"
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8099/
+      defaultZone: http://localhost:8099/eureka/
