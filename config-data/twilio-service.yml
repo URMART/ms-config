@@ -11,3 +11,9 @@ TWILIO:
   OUTGOING:
     SMS:
       NUMBER: ${NUMBER_TWILIO}
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8099/eureka/      
