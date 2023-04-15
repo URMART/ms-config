@@ -1,0 +1,13 @@
+server:
+  port: 8086
+
+
+TWILIO:
+  ACCOUNT:
+    SID: ${SID_TWILIO}
+
+    TOKEN: ${TOKEN_TWILIO}
+
+  OUTGOING:
+    SMS:
+      NUMBER: ${NUMBER_TWILIO}
