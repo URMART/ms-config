@@ -42,10 +42,7 @@ public class EnviarSMS {
 
     }
 
-    @GetMapping("/prueba")
-    public String getPrueba(){
-        return "estamos conectados";
-    }
+
 
 
 }

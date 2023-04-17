@@ -13,13 +13,13 @@ import javax.annotation.PostConstruct;
 @Slf4j
 public class SMSService {
 
-    @Value("${TWILIO.ACCOUNT.SID}")
+    @Value("${SID_TWILIO}")
     String ACCOUNT_SID;
 
-    @Value("${TWILIO.ACCOUNT.TOKEN}")
+    @Value("${TOKEN_TWILIO}")
     String ACCOUNT_TOKEN;
 
-    @Value("${TWILIO.OUTGOING.SMS.NUMBER}")
+    @Value("${NUMBER_TWILIO}")
     String OUTGOING_SMS_NUMBER;
 
     @PostConstruct
